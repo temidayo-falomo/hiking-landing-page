@@ -26,7 +26,7 @@ const HikeGear = () => {
           <p><a href='/' className='align'>read more <BsArrowRight /></a></p>
           </div>
 
-          <img src='./FigmaAssets/01.svg' alt='' />
+          <img src='./FigmaAssets/01.svg' alt=''  className='hike-img' />
         </div>
 
         <div className='gear-two' id='two'>
@@ -44,7 +44,7 @@ const HikeGear = () => {
           <p><a href='/' className='align'>read more <BsArrowRight /></a></p>
           </div>
 
-          <img src='./FigmaAssets/02.svg' alt='' />
+          <img src='./FigmaAssets/02.svg' alt=''  className='hike-img'/>
         </div>
 
         <div className='gear three' id='three'>
@@ -63,7 +63,7 @@ const HikeGear = () => {
           <p><a href='/' className='align'>read more <BsArrowRight /></a></p>
           </div>
 
-          <img src='./FigmaAssets/03.svg' alt='' />
+          <img src='./FigmaAssets/03.svg' alt='' className='hike-img' />
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 .hike-gear {
     width: 100%;
+    margin-top: -350px;
 }
 
 .hike-gear-container {
@@ -9,7 +10,6 @@
     width: 100%;
     gap: 130px;
     margin-top: -100px;
-    margin-bottom: 90px;
     justify-content: center;
 
 }
@@ -78,15 +78,23 @@
     .gear {
         flex-direction: column;
         gap: 10px;
+        justify-content: center;
+        width: 80%;
     }
 
     .gear-two {
         flex-direction: column;
         gap: 10px;
-        width: 100%;
+        width: 80%;
+        justify-content: center;
     }
 
     .gear-two p {
         width: 100%;
     }
+
+    .hike-img {
+        width: 80%;
+    }
 }
+

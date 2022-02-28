@@ -87,7 +87,7 @@ span {
     }
 
     .sidebar.active {
-        background-color: #637c08;
+        background-color: #274C5C;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;

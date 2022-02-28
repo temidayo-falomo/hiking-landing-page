@@ -1,0 +1,92 @@
+.hike-gear {
+    width: 100%;
+}
+
+.hike-gear-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 130px;
+    margin-top: -100px;
+    margin-bottom: 90px;
+    justify-content: center;
+
+}
+
+.hike-gear-container p {
+    font-size: 15px;
+}
+
+.gear-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gear-desc p {
+    line-height: 25px;
+}
+
+.gear {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    gap: 120px;
+}
+
+.gear-two {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    flex-direction: row-reverse;
+    gap: 120px;
+    justify-content: space-between;
+}
+
+.gear-two .gear-desc {
+    width: 50%;
+    display: flex;
+    text-align: left;
+}
+
+.gear img, .gear-two img {
+    max-width: 400px;
+    /* box-shadow: rgba(248, 246, 246, 0.35) 0px 5px 15px; */
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.number {
+    position: absolute;
+    width: 180px;
+    margin-top: -60px;
+    margin-left: -140px;
+    z-index: 1111;
+    
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+@media(max-width: 1000px) {
+
+
+    .gear {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .gear-two {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .gear-two p {
+        width: 100%;
+    }
+}

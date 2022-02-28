@@ -1,0 +1,33 @@
+.top-part {
+    height: 1800px;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+
+.hg {
+    position: absolute;
+    top: -340px;
+    z-index: -1;
+    /* background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%); */
+}
+
+
+.mg {
+    position: absolute;
+    top: 400px;
+    z-index: -1;
+    /* background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%); */
+}
+
+.vg {
+    position: absolute;
+    top: 900px;
+    z-index: -1;
+    /* background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%); */
+}
+
+.bg {
+    position: absolute;
+    top: 1200px;
+    z-index: -1;
+}

@@ -20,7 +20,7 @@ const Footer = () => {
                            const {id, text} = usage;
                         return (
                            <ul key={id}>
-                             <li><a href='#'>{text}</a></li>
+                             <li><a href='/'>{text}</a></li>
                           </ul>
                   )
           })}
@@ -30,9 +30,9 @@ const Footer = () => {
             <section className='right-footer'>
                 <h4>More on MNTN</h4>
                 <ul>
-                    <li><a href="#">The team</a></li>
-                    <li><a href="#">Jobs</a></li>
-                    <li><a href="#">Press</a></li>
+                    <li><a href="/">The team</a></li>
+                    <li><a href="/">Jobs</a></li>
+                    <li><a href="/">Press</a></li>
                 </ul>
             </section>
            </div>
